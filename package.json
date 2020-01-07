@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server storybook",
+    "start": "http-server storybook-static",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
