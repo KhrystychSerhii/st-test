@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -s public",
     "postinstall": "build-storybook -s public",
-    "preinstall": "npm install -g http-server",
+    "preinstall": "npm install -g http-server"
   },
   "private": true,
   "dependencies": {
