@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server",
+    "start": "http-server storybook",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -s public",
-    "postinstall": "build-storybook -s public"
+    "postinstall": "build-storybook -s public",
+    "preinstall": "npm install -g http-server",
   },
   "private": true,
   "dependencies": {
