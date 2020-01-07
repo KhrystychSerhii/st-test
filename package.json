@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server storybook-static",
+    "start": "forever run http-server storybook-static -p 3000",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -s public",
     "postinstall": "build-storybook -s public",
-    "preinstall": "npm install -g http-server"
+    "preinstall": "npm install -g http-server && npm install -g forever"
   },
   "private": true,
   "dependencies": {
